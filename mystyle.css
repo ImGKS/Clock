@@ -1,0 +1,21 @@
+body {
+    background: #111
+}
+
+#clock {
+   
+    color: #3fefef;
+    font-size: 150px;
+    background:#111;
+    padding: 20px;
+    width: 80%;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 200px;
+}
+body{
+    @media screen {
+        max-width: 320;
+    }
+}

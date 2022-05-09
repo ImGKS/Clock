@@ -1,0 +1,31 @@
+/* big tablet to smaller laptop screen */
+@media only screen and (max-width :1200px ) {
+    
+}
+
+/* smaller tablet to larger laptop screen */
+@media only screen and (max-width :1023px ) {
+    
+}
+
+/* larger phone to smaller laptop screen */
+@media only screen and (max-width :767px ) {
+    
+}
+
+/* all phone sizes */
+@media only screen and (max-width :480px ) {
+    #clock {
+        border: solid black 15px;
+        color: rgb(236, 64, 20);
+        font-size: 50px;
+        background: #111;
+        padding: 2px;
+        width: 80%;
+        margin-left: 1px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-top: 2px;
+    }
+    
+}
